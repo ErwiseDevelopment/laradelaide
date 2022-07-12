@@ -27,6 +27,10 @@ get_header(); ?>
 <?php echo get_template_part( 'template-parts/content', 'about' ); ?>
 <!-- end about -->
 
+<!-- items -->
+<?php echo get_template_part( 'template-parts/content', 'items' ); ?>
+<!-- end items -->
+
 <!-- news -->
 <?php echo get_template_part( 'template-parts/content', 'news' ); ?>
 <!-- end news -->
