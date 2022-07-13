@@ -10,7 +10,7 @@
 
                     <!-- loop -->
                     <?php for( $i = 0; $i < 6; $i++ ) { ?>
-                        <div class="col-2">
+                        <div class="col-6 col-md-4 col-lg-2">
 
                             <div class="card border-0">
 
@@ -22,7 +22,7 @@
                                 </div>
 
                                 <div class="card-body px-0">
-                                    <h6 class="u-font-size-15 u-font-weight-semibold text-center u-color-folk-gray">
+                                    <h6 class="u-font-size-15 xxl:u-font-size-18 u-font-weight-semibold text-center u-color-folk-gray">
                                         Atendimento
                                         médico
                                     </h6>

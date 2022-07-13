@@ -4,21 +4,21 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-10">
+            <div class="col-md-10">
                 
                 <div class="row">
 
-                    <div class="col-7 pr-0">
+                    <div class="col-lg-7 pr-lg-0">
 
                         <div class="row h-100">
 
-                            <div class="col-4">
+                            <div class="col-md-4 order-2 order-md-1">
 
                                 <div class="row h-100">
 
                                     <!-- loop -->
                                     <?php for( $i = 0; $i < 3; $i++ ) { ?>
-                                        <div class="col-12 mt-4">
+                                        <div class="col-4 col-md-12 mt-4">
 
                                             <div class="l-about__miniature w-100 h-100">
                                                 <img
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-8 pt-4">
+                            <div class="col-md-8 order-1 order-md-2 pt-4">
                                 <img
                                 class="img-fluid w-100 h-100 u-object-fit-cover"
                                 src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/IMG_7067.png' ) ?>"
@@ -41,9 +41,9 @@
                         </div>
                     </div>
 
-                    <div class="col-5 mt-4 pl-0">
+                    <div class="col-lg-5 mt-4 pl-lg-0">
                     
-                        <div class="u-bg-folk-white py-4 px-5">
+                        <div class="u-bg-folk-white py-4 px-4 px-md-5">
                             <p class="l-about__title u-font-weight-regular u-color-folk-dark-blue mb-0">
                                 Sobre nós
                             </p>
@@ -53,7 +53,7 @@
                                 Weiss Scarpa
                             </h1>
 
-                            <p class="u-font-size-14 u-font-weight-regular u-color-folk-gray">
+                            <p class="u-font-size-14 xxl:u-font-size-18 u-font-weight-regular u-color-folk-gray">
                                 O Lar Adelaide Weiss Scarpa, é administrado pelas 
                                 Irmãs da Copiosa Redenção, cedido por comodato 
                                 pela Fundação Weiss Scarpa, desde outubro de 1997. A 
@@ -63,7 +63,7 @@
                                 e fisioterapia. 
                             </p>
 
-                            <p class="u-font-size-14 u-font-weight-bold u-color-folk-gray mb-0">
+                            <p class="u-font-size-14 xxl:u-font-size-18 u-font-weight-bold u-color-folk-gray mb-0">
                                 A finalidade do Lar é dar atendimento integral e 
                                 qualidade de vida para pessoas idosas a partir de 60 
                                 anos, preservando a interação com a família. 

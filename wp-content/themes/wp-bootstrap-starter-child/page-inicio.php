@@ -39,9 +39,13 @@ get_header(); ?>
 <?php echo get_template_part( 'template-parts/content', 'more-content' ); ?>
 <!-- end more content -->
 
-<!-- team -->
-<?php echo get_template_part( 'template-parts/content', 'team' ); ?>
-<!-- end team -->
+<!-- testimonials -->
+<?php echo get_template_part( 'template-parts/content', 'testimonials' ); ?>
+<!-- end testimonials -->
+
+<!-- form -->
+<?php echo get_template_part( 'template-parts/content', 'form' ); ?>
+<!-- end form -->
 
 <?php endwhile; ?>
 
