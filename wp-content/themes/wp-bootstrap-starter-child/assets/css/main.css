@@ -1880,4 +1880,65 @@ button.swiper-pagination-bullet {
   transform: translateY(0);
   transition: all .4s; }
 
+.l-template-menu__menu li {
+  margin: .2rem 0;
+  list-style: none; }
+.l-template-menu__menu a {
+  padding: 1rem 0;
+  position: relative;
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none !important;
+  color: #FFF !important;
+  background-color: #255777; }
+  @media screen and (min-width: 1600px) {
+    .l-template-menu__menu a {
+      font-size: 1.5rem; } }
+  .l-template-menu__menu a::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .2s;
+    position: absolute;
+    background-color: #E9B53D;
+    z-index: 9; }
+  .l-template-menu__menu a::after {
+    content: attr(data-value);
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s;
+    position: absolute;
+    z-index: 99; }
+    @media screen and (max-width: 767px) {
+      .l-template-menu__menu a::after {
+        transform: translate(-50%, -50%); } }
+  .l-template-menu__menu a.is-active, .l-template-menu__menu a:hover {
+    color: #0B2139 !important; }
+    .l-template-menu__menu a.is-active::before, .l-template-menu__menu a:hover::before {
+      width: calc(100% + 15px); }
+      @media screen and (max-width: 767px) {
+        .l-template-menu__menu a.is-active::before, .l-template-menu__menu a:hover::before {
+          width: 100%; } }
+    .l-template-menu__menu a.is-active::after, .l-template-menu__menu a:hover::after {
+      opacity: 1;
+      visibility: visible; }
+.l-template-menu__content h2, .l-template-menu__content h3, .l-template-menu__content h4, .l-template-menu__content h5, .l-template-menu__content h6 {
+  font-weight: 800;
+  color: #255777; }
+.l-template-menu__content p {
+  font-size: .875rem;
+  text-align: justify;
+  color: #828690; }
+  @media screen and (min-width: 1600px) {
+    .l-template-menu__content p {
+      font-size: 1.125rem; } }
+
 /*# sourceMappingURL=main.css.map */
