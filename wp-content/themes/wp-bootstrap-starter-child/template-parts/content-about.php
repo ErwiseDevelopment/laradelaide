@@ -61,7 +61,7 @@
 
                     <div class="col-lg-5 mt-4 pl-lg-0">
                     
-                        <div class="u-bg-folk-white py-4 px-4 px-md-5">
+                        <div class="u-bg-folk-white py-4 px-4 px-md-5" style="padding-bottom: 7.5rem!important">
                             <p class="l-about__title u-font-weight-regular u-color-folk-dark-blue mb-0">
                                 Sobre nós
                             </p>
