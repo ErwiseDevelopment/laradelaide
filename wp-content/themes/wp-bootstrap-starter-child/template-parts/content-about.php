@@ -18,15 +18,7 @@
 
                                     <!-- loop -->
                                    
-                                        <div class="col-4 col-md-12 mt-4">
-
-                                            <div class="l-about__miniature w-100 h-100">
-                                                <img
-                                                class="img-fluid w-100 h-100 u-object-fit-cover"
-                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/3-scaled.jpeg' ) ?>"
-                                                alt="">
-                                            </div>
-                                        </div>
+                                       
                                         <div class="col-4 col-md-12 mt-4">
 
                                             <div class="l-about__miniature w-100 h-100">
@@ -61,7 +53,7 @@
                             <div class="col-md-8 order-1 order-md-2 pt-4">
                                 <img
                                 class="img-fluid w-100 h-100 u-object-fit-cover"
-                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/IMG_7067.png' ) ?>"
+                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/3-scaled.jpeg' ) ?>"
                                 alt="">
                             </div>
                         </div>
