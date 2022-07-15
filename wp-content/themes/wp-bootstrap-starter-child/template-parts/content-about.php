@@ -17,17 +17,43 @@
                                 <div class="row h-100">
 
                                     <!-- loop -->
-                                    <?php for( $i = 0; $i < 3; $i++ ) { ?>
+                                   
                                         <div class="col-4 col-md-12 mt-4">
 
                                             <div class="l-about__miniature w-100 h-100">
                                                 <img
                                                 class="img-fluid w-100 h-100 u-object-fit-cover"
-                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/IMG_7097.png' ) ?>"
+                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/3-scaled.jpeg' ) ?>"
                                                 alt="">
                                             </div>
                                         </div>
-                                    <?php } ?>
+                                        <div class="col-4 col-md-12 mt-4">
+
+                                            <div class="l-about__miniature w-100 h-100">
+                                                <img
+                                                class="img-fluid w-100 h-100 u-object-fit-cover"
+                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/4.jpeg' ) ?>"
+                                                alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-12 mt-4">
+
+                                            <div class="l-about__miniature w-100 h-100">
+                                                <img
+                                                class="img-fluid w-100 h-100 u-object-fit-cover"
+                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/1.jpeg' ) ?>"
+                                                alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-4 col-md-12 mt-4">
+
+                                            <div class="l-about__miniature w-100 h-100">
+                                                <img
+                                                class="img-fluid w-100 h-100 u-object-fit-cover"
+                                                src="<?php echo get_home_url( null, '/wp-content/uploads/2022/07/2.jpg' ) ?>"
+                                                alt="">
+                                            </div>
+                                        </div>
                                     <!-- end loop -->
                                 </div>
                             </div>
