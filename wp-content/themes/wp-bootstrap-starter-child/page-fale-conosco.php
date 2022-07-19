@@ -159,7 +159,7 @@ get_header(); ?>
             </div>
 
             <div class="col-12">
-                <iframe class="w-100 "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.702406333728!2d-50.12486562302182!3d-25.10028988982298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81ba08536021f%3A0x6fcb650a99d496fd!2sR.%20Doral%C3%ADcio%20Correia%2C%20357%20-%20Uvaranas%2C%20Ponta%20Grossa%20-%20PR%2C%2084031-190!5e0!3m2!1spt-BR!2sbr!4v1655956105383!5m2!1spt-BR!2sbr" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="w-100 "src="https://www.google.com/maps?sxsrf=ALiCzsYCbHx8Mix1hlSdj3vGb500Hsr13w:1658242022768&q=maps+RUA.+Quinze+de+Outubro,+1190+Planta+Est%C3%A2ncia+Pinhais+%E2%80%93+Pinhais+%E2%80%93+PR&biw=1536&bih=746&dpr=1.25&um=1&ie=UTF-8&sa=X&ved=2ahUKEwikyNz2mIX5AhWEB9QKHUg-DIgQ_AUoAXoECAEQAw" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
