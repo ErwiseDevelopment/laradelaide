@@ -159,7 +159,7 @@ get_header(); ?>
             </div>
 
             <div class="col-12">
-                <iframe class="w-100 "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.895838425531!2d-49.19425558498557!3d-25.441745683783026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcef92969dfae5%3A0x5eecb895d0ca39c4!2sR.%20Quinze%20de%20Outubro%2C%201190%20-%20Planta%20Est%C3%A2ncia%20Pinhais%2C%20Pinhais%20-%20PR%2C%2083323-040!5e0!3m2!1spt-BR!2sbr!4v1658242212168!5m2!1spt-BR!2sbr" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="w-100 "src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.180487484924!2d-46.557722585019455!3d-23.705247884611612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43d338581909%3A0xaf0a0d24aceebf5d!2sR.%20Pr%C3%ADncipe%20Humberto%2C%20250%20-%20Centro%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009725-200!5e0!3m2!1spt-BR!2sbr!4v1658242466823!5m2!1spt-BR!2sbr" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
