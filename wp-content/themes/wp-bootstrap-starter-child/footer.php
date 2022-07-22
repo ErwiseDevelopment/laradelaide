@@ -135,6 +135,14 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <?php echo get_template_part( 'template-parts/content', 'dev' ) ?>
+                </div>
+            </div>
         </div>
     </footer>
 
