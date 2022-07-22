@@ -39,7 +39,7 @@
                                         <div class="card-body pb-5">
 
                                             <span class="d-block u-font-size-13 md:u-font-size-15 xxl:u-font-size-18 u-font-weight-regular text-center u-color-folk-aluminium">
-                                                <?php echo '"' . get_the_content() . '"'; ?>
+                                                <?php echo '"' . limit_words(get_the_content(), 10) . '"'; ?>
                                             </span>
 
                                             <span class="d-none js-testimonial-content">
