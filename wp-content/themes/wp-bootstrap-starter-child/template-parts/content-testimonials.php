@@ -25,7 +25,7 @@
                         if( $testimonials->have_posts() ) :
                             while( $testimonials->have_posts() ) : $testimonials->the_post();
                     ?>
-                                <div class="col-md-6 col-lg-4 mt-5 mt-lg-0 pt-5 pt-lg-0">
+                                <div class="col-md-6 col-lg-4 mt-5 mt-lg-0 pt-5 pt-lg-0 js-testimonial">
 
                                     <div class="card h-100 rounded-0">
                                         
@@ -37,20 +37,13 @@
                                         </div>
 
                                         <div class="card-body pb-5">
-                                            
-                                            <!-- <p class="u-font-size-13 md:u-font-size-15 xxl:u-font-size-18 u-font-weight-regular text-center u-color-folk-aluminium">
-                                                Aqui no Lar Adelaide sou muito 
-                                                feliz, gosto de participar das 
-                                                atividades de Terapia Ocupacional, 
-                                                sou muito bem tratado por todos. 
-                                                A Drª Fernanda, fisioterapeuta, é 
-                                                bem atenciosa durante os 
-                                                exercícios. E a religiosidade das 
-                                                Irmãs é muito importante para mim.” 
-                                            </p> -->
 
                                             <span class="d-block u-font-size-13 md:u-font-size-15 xxl:u-font-size-18 u-font-weight-regular text-center u-color-folk-aluminium">
                                                 <?php echo '"' . get_the_content() . '"'; ?>
+                                            </span>
+
+                                            <span class="d-none js-testimonial-content">
+                                                <?php the_content() ?>
                                             </span>
 
                                             <h6 class="u-font-size-15 xxl:u-font-size-18 u-font-weight-bold text-center u-color-folk-gray">
@@ -75,3 +68,36 @@
         </div>
     </div>
 </section>
+
+<!-- modal testimonial -->
+<div class="l-modal-testimonial js-modal-testimonial">
+
+    <div class="l-modal-testimonial__overlay js-modal-testimonial-close"></div>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-8 mb-3">
+
+                <div class="row justify-content-end">
+                        
+                    <div class="col-lg-3">
+                        <button class="w-100 border-0 rounded d-block u-font-size-14 u-font-weight-medium text-center u-color-folk-white u-bg-folk-medium-electric-blue hover:u-bg-folk-golden py-2 js-modal-testimonial-close">
+                            Fechar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                
+                <div class="shadow rounded d-flex justify-content-center align-items-center u-bg-folk-white p-4 p-lg-5">
+                    <span class="d-block u-font-size-13 md:u-font-size-15 xxl:u-font-size-18 u-font-weight-regular text-center u-color-folk-aluminium js-modal-content">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal testimonial -->

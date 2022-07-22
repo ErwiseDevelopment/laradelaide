@@ -13,5 +13,6 @@ function single_temas_scripts()
     wp_enqueue_script('single-temas-menu-toggle', get_template_directory_uri() . '/../wp-bootstrap-starter-child/assets/js/menu-toggler.js', array(), '1.0.2', true);
     wp_enqueue_script('single-temas-show-search', get_template_directory_uri() . '/../wp-bootstrap-starter-child/assets/js/show-search.js', array(), '1.0.2', true);
     wp_enqueue_script('single-temas-page-current', get_template_directory_uri() . '/../wp-bootstrap-starter-child/assets/js/page-current.js', array(), '1.0.2', true);
+    wp_enqueue_script('single-temas-modal-testimonial', get_template_directory_uri() . '/../wp-bootstrap-starter-child/assets/js/modal-testimonial.js', array(), '1.0.2', true);
 }
 add_action('wp_enqueue_scripts', 'single_temas_scripts');
