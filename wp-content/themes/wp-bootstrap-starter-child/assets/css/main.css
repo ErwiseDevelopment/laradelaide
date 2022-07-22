@@ -1882,6 +1882,9 @@ button.swiper-pagination-bullet {
   transform: translateY(0);
   transition: all .4s; }
 
+.l-news__card-img {
+  height: 290px; }
+
 .l-template-menu__menu li {
   margin: .2rem 0;
   list-style: none; }
