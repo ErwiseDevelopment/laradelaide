@@ -9,6 +9,8 @@
                 $menu_post_link = $link_pattern . get_field( 'link_menu_editorias', 'option');
                 $request_posts = wp_remote_get( $menu_post_link );
 
+                echo 'Menu: ' . $menu_post_link . '<br>';
+                 
                 if(!is_wp_error( $request_posts )) :
                     $body = wp_remote_retrieve_body( $request_posts );
                     $data = json_decode( $body );
