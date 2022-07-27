@@ -16,6 +16,10 @@
 
                     if(!is_wp_error( $data )) :
                         foreach( $data as $rest_post ) :
+
+                            echo "<pre>";
+                            var_dump($rest_post);
+                            echo "</pre>";
             ?>
                             <div class="col-12">
 
