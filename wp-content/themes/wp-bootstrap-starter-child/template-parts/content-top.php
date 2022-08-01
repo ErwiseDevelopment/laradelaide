@@ -12,7 +12,6 @@
                 if(!is_wp_error( $request_posts )) :
                     $body = wp_remote_retrieve_body( $request_posts );
                     $data = json_decode( $body );
-                    $status = false;
 
                     if(!is_wp_error( $data )) :
                         foreach( $data as $rest_post ) :

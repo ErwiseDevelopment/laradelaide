@@ -102,35 +102,41 @@
 
                         <ul class="d-flex mb-0 pl-0">
 
-                            <li class="u-list-style-none">
-                                <a
-                                class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__facebook-square hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-facebook"
-                                href="#"
-                                target="_blank"
-                                rel="noreferrer noopener">
-                                    Link do Facebook
-                                </a>
-                            </li>
+                            <?php if( get_field( 'facebook', 'option' ) ) : ?>
+                                <li class="u-list-style-none">
+                                    <a
+                                    class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__facebook-square hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-facebook"
+                                    href="<?php echo get_field( 'facebook', 'option' ) ?>"
+                                    target="_blank"
+                                    rel="noreferrer noopener">
+                                        Link do Facebook
+                                    </a>
+                                </li>
+                            <?php endif; ?>
 
-                            <li class="u-list-style-none mx-3">
-                                <a
-                                class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__youtube hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-youtube"
-                                href="#"
-                                target="_blank"
-                                rel="noreferrer noopener">
-                                    Link do Youtube
-                                </a>
-                            </li>
+                            <?php if( get_field( 'youtube', 'option' ) ) : ?>
+                                <li class="u-list-style-none mx-3">
+                                    <a
+                                    class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__youtube hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-youtube"
+                                    href="<?php echo get_field( 'youtube', 'option' ) ?>"
+                                    target="_blank"
+                                    rel="noreferrer noopener">
+                                        Link do Youtube
+                                    </a>
+                                </li>
+                            <?php endif; ?>
 
-                            <li class="u-list-style-none">
-                                <a
-                                class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__instagram hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-instagram"
-                                href="#"
-                                target="_blank"
-                                rel="noreferrer noopener">
-                                    Link do instagram
-                                </a>
-                            </li>
+                            <?php if( get_field( 'instagram', 'option' ) ) : ?>
+                                <li class="u-list-style-none">
+                                    <a
+                                    class="px:u-w-40 px:u-h-40 u-icon__brands u-icon__instagram hover:u-opacity-8 d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-15 u-font-weight-bold text-decoration-none u-color-folk-white u-bg-folk-instagram"
+                                    href="<?php echo get_field( 'instagram', 'option' ) ?>"
+                                    target="_blank"
+                                    rel="noreferrer noopener">
+                                        Link do instagram
+                                    </a>
+                                </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>

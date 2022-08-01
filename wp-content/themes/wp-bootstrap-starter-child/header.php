@@ -81,13 +81,14 @@
 
                                             <a 
                                             class="d-flex align-items-center text-decoration-none" 
-                                            href="#">
+                                            href="<?php echo 'mailto:' . get_field( 'email_link', 'option' ) ?>">
                                                 <span class="px:u-w-25 px:u-h-25 rounded-pill u-icon__free u-icon__envelope d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-14 u-font-weight-semibold u-color-folk-white u-bg-folk-medium-electric-blue">
                                                     Envelope
                                                 </span>
 
                                                 <span class="u-font-size-14 u-font-weight-medium u-color-folk-aluminium pl-2">
-                                                    centroancora@copiosaredencao.org.br
+                                                    <!-- centroancora@copiosaredencao.org.br -->
+                                                    <?php echo get_field( 'email_link', 'option' ) ?>
                                                 </span>
                                             </a>
                                         </li>
@@ -96,13 +97,16 @@
 
                                             <a 
                                             class="d-flex align-items-center text-decoration-none" 
-                                            href="#">
+                                            href="<?php echo 'https://wa.me/55' . get_field( 'telefone_link', 'option' ) ?>"
+                                            target="_blank"
+                                            rel="noreferrer noopener">
                                                 <span class="px:u-w-25 px:u-h-25 rounded-pill u-icon__free u-icon__phone d-flex justify-content-center align-items-center u-font-size-0 before::u-font-size-14 u-font-weight-semibold u-color-folk-white u-bg-folk-medium-electric-blue">
                                                     Telefone
                                                 </span>
 
                                                 <span class="u-font-size-14 u-font-weight-medium u-color-folk-aluminium pl-2">
-                                                    222 000 7777
+                                                    <!-- 222 000 7777 -->
+                                                    <?php echo get_field( 'telefone_link', 'option' ) ?>
                                                 </span>
                                             </a>
                                         </li>
@@ -113,25 +117,29 @@
 
                                     <ul class="d-flex mb-0 pl-0">
 
-                                        <li class="u-list-style-none">
-                                            <a
-                                            class="u-icon__brands u-icon__facebook-square u-font-size-0 before::u-font-size-22 u-font-weight-light text-decoration-none u-color-folk-medium-electric-blue hover:u-color-folk-golden"
-                                            href="#"
-                                            target="_blank"
-                                            rel="noreferrer noopener">
-                                                Link do Facebook
-                                            </a>
-                                        </li>
+                                        <?php if( get_field( 'facebook', 'option' ) ) : ?>
+                                            <li class="u-list-style-none">
+                                                <a
+                                                class="u-icon__brands u-icon__facebook-square u-font-size-0 before::u-font-size-22 u-font-weight-light text-decoration-none u-color-folk-medium-electric-blue hover:u-color-folk-golden"
+                                                href="<?php echo get_field( 'facebook', 'option' ) ?>"
+                                                target="_blank"
+                                                rel="noreferrer noopener">
+                                                    Link do Facebook
+                                                </a>
+                                            </li>
+                                        <?php endif; ?>
 
-                                        <li class="u-list-style-none ml-3">
-                                            <a
-                                            class="u-icon__brands u-icon__instagram u-font-size-0 before::u-font-size-22 u-font-weight-light text-decoration-none u-color-folk-medium-electric-blue hover:u-color-folk-golden"
-                                            href="#"
-                                            target="_blank"
-                                            rel="noreferrer noopener">
-                                                Link do Instagram
-                                            </a>
-                                        </li>
+                                        <?php if( get_field( 'instagram', 'option' ) ) : ?>
+                                            <li class="u-list-style-none ml-3">
+                                                <a
+                                                class="u-icon__brands u-icon__instagram u-font-size-0 before::u-font-size-22 u-font-weight-light text-decoration-none u-color-folk-medium-electric-blue hover:u-color-folk-golden"
+                                                href="<?php echo get_field( 'instagram', 'option' ) ?>"
+                                                target="_blank"
+                                                rel="noreferrer noopener">
+                                                    Link do Instagram
+                                                </a>
+                                            </li>
+                                        <?php endif; ?>
                                     </ul>
 
                                     <span class="u-icon__free u-icon__search d-block d-lg-none u-font-size-0 before::u-font-size-22 u-font-weight-semibold u-color-folk-medium-electric-blue hover:u-color-folk-golden js-search">
